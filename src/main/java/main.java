@@ -11,10 +11,14 @@ public class main {
 
         try {
             InputStream json = new FileInputStream("person.json");
-            PersonalDetails person = objectMapper.readValue(json, PersonalDetails.class);
+            person = objectMapper.readValue(json, PersonalDetails.class);
         } catch (IOException exception) {
-    }
-        System.out.println(person);
 
+        }
+
+        System.out.println(person);
         //Ana banana ajutand beginerii :)
+        //Asa beginneri sa tot ai :)
+    }
+
 }
